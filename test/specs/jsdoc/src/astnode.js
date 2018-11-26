@@ -3,7 +3,7 @@
 describe('jsdoc/src/astNode', function() {
     var astBuilder = require('jsdoc/src/astbuilder');
     var astNode = require('jsdoc/src/astnode');
-    var babylon = require('babylon');
+    var babylon = require('@babel/parser');
     var env = require('jsdoc/env');
     var Syntax = require('jsdoc/src/syntax').Syntax;
 
